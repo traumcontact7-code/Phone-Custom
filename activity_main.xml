@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:id="@+id/previewClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02:36"
+        android:textSize="72sp"
+        android:textColor="#CCFFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10-22 Wednesday"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textColor="#DDDDDD"
+        android:textSize="14sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnSetWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_set_wallpaper"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnLockPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_lockscreen_permission"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBattery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_battery" />
+
+</LinearLayout>

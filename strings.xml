@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lock Clock</string>
+    <string name="wallpaper_description">Horloge grand format transparente, style écran verrouillé</string>
+    <string name="btn_set_wallpaper">Définir comme fond d\'écran</string>
+    <string name="btn_lockscreen_permission">Autoriser l\'affichage sur écran verrouillé</string>
+    <string name="btn_battery">Désactiver l\'optimisation batterie</string>
+    <string name="instructions">1. Définis ce fond d\'écran animé.\n2. Sur Xiaomi, va dans Réglages > Applications > Lock Clock > Autorisations et active « Afficher sur écran verrouillé » et « Démarrage automatique ».\n3. Désactive l\'optimisation de batterie pour éviter que MIUI tue l\'appli.</string>
+</resources>
